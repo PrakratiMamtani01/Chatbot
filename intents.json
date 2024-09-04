@@ -1,0 +1,109 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "pattern": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello",
+                "Hello thank for using our app",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag":"goodbye",
+            "pattern":[
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses":[
+                "Thanks for contacting us",
+                "Happy to help!",
+                "Anytime",
+                "See you later"
+
+            ]
+        },
+        {
+            "tag":"thanks",
+            "pattern":[
+                "thanks",
+                "Thank you",
+                "Thats helpful",
+                "Thanks a lot!"
+            ],
+            "responses":[
+                "Happy to help!",
+                "Anytime!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag":"about",
+            "pattern":[
+                "What is Zywa?",
+                "Tell me something about you?",
+                "Tell me something about Zywa?",
+                "What do you do?"
+            ],
+            "responses":[
+                "We are the first payments app that is exclusively tailored for Gen Z (10-25 years old) in the Middle East and North Africa – when you sign up, you get your own MasterCard card and app to manage your money. You can pay anywhere, split the bill with your friends, save money, earn rewards on every spend and play games in the app to win rewards like iPhone, PlayStation, gift cards, etc. We also have the largest community of Gen Z, where like-minded youth come together to learn from each other and make friends. You can join our discord community once you’re a zywa member and get exclusive benefits and invites to exclusive events. We also offer internship opportunities to our community members. Our team comprises of Gen Z and we are building for Gen Z in UAE – we decided to build a solution for fellow youth, teenagers, students and Gen Z which caters to their needs and is tailored for them."
+            ]
+        },
+        {
+            "tag":"account",
+            "pattern":[
+                "Is Zywa a bank?",
+                "Is this a bank account?",
+                "What is a Zywa account?"
+            ],
+            "responses":[
+                "Zywa is not a bank. Your Zywa account acts like an e-wallet and your card is a Mastercard, which you can use to spend anywhere online and in stores."
+            ]
+        },
+        {
+            "tag":"credit",
+            "pattern":[
+                "Is Zywa card a credit card?",
+                "Is it a credit card?",
+                "What type of card is Zywa card?",
+                "What is a Zywa card?"
+            ],
+            "responses":[
+                "It is a Mastercard prepaid card that acts like a debit card and gives you perks and rewards like a credit card. You can only spend the money you load on the card, so there’s no overdraft or debt."
+            ]
+        },
+        {
+            "tag":"fees",
+            "pattern":[
+                "Does Zywa charge any fees?",
+                "Is there any fee?",
+                "What about your fee?",
+                "Do you charge anything?"
+            ],
+            "responses":[
+                "We do not charge any fees from our side. Your account and card are completely free, and there are no charges for any transactions or transfers."
+            ]
+        },
+        {
+            "tag":"safe",
+            "pattern":[
+                "Is Zywa safe?",
+                "Are you safe?",
+                "I'm scared to use Zywa?",
+                "Are you secure?"
+            ],
+            "responses":[
+                "We are 100% safe. We have partnered with NymCard Payments Services LLC (an entity regulated by the Central Bank), who issue your cards, and your money is stored safely in Mashreq Bank."
+            ]
+        }
+    ]
+}
